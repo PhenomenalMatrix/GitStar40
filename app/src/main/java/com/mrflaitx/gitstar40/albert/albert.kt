@@ -34,6 +34,12 @@ class albert : AppCompatActivity() {
                 .setAnchorView(R.id.fab)
                 .setAction("Action", null).show()
         }
+
+        test()
+    }
+
+    private fun test() {
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
