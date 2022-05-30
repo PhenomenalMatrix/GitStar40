@@ -1,13 +1,14 @@
 package com.mrflaitx.gitstar40.albert
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.material.snackbar.Snackbar
 import com.mrflaitx.gitstar40.R
 import com.mrflaitx.gitstar40.databinding.ActivityAlbertBinding
 
@@ -39,7 +40,7 @@ class albert : AppCompatActivity() {
     }
 
     private fun test() {
-
+        print("albert")
     }
 
     override fun onSupportNavigateUp(): Boolean {
