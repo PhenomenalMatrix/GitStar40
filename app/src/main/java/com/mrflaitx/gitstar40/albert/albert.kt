@@ -1,6 +1,7 @@
 package com.mrflaitx.gitstar40.albert
 
 import android.os.Bundle
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
@@ -39,7 +40,7 @@ class albert : AppCompatActivity() {
     }
 
     private fun test() {
-
+        print("orozbek")
     }
 
     override fun onSupportNavigateUp(): Boolean {
